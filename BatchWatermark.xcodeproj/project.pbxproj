@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		545B00422515E71600A95102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545B00412515E71600A95102 /* AppDelegate.swift */; };
+		545B00442515E71600A95102 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545B00432515E71600A95102 /* SceneDelegate.swift */; };
+		545B00462515E71600A95102 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545B00452515E71600A95102 /* ViewController.swift */; };
+		545B00492515E71600A95102 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545B00472515E71600A95102 /* Main.storyboard */; };
+		545B004B2515E71A00A95102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545B004A2515E71A00A95102 /* Assets.xcassets */; };
+		545B004E2515E71A00A95102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545B004C2515E71A00A95102 /* LaunchScreen.storyboard */; };
+		545B00592515E71A00A95102 /* BatchWatermarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545B00582515E71A00A95102 /* BatchWatermarkTests.swift */; };
+		94DDAD9A3AACF83D6D784E73 /* Pods_BatchWatermark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EF696D8144A279252B31E1 /* Pods_BatchWatermark.framework */; };
+		C7DA27B0B27925E3B6B9F5A0 /* Pods_BatchWatermarkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA19FA986242E56EA15A612A /* Pods_BatchWatermarkTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		545B00552515E71A00A95102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 545B00362515E71500A95102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 545B003D2515E71500A95102;
+			remoteInfo = BatchWatermark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0440CE82F6817443DE4C7B1E /* Pods-BatchWatermark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BatchWatermark.debug.xcconfig"; path = "Target Support Files/Pods-BatchWatermark/Pods-BatchWatermark.debug.xcconfig"; sourceTree = "<group>"; };
+		0DD2414AD252C182F4C1AD47 /* Pods-BatchWatermarkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BatchWatermarkTests.debug.xcconfig"; path = "Target Support Files/Pods-BatchWatermarkTests/Pods-BatchWatermarkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AFF77A78C854E641E7C7861 /* Pods-BatchWatermarkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BatchWatermarkTests.release.xcconfig"; path = "Target Support Files/Pods-BatchWatermarkTests/Pods-BatchWatermarkTests.release.xcconfig"; sourceTree = "<group>"; };
+		545B003E2515E71600A95102 /* BatchWatermark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatchWatermark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		545B00412515E71600A95102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		545B00432515E71600A95102 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		545B00452515E71600A95102 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		545B00482515E71600A95102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		545B004A2515E71A00A95102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		545B004D2515E71A00A95102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		545B004F2515E71A00A95102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		545B00542515E71A00A95102 /* BatchWatermarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatchWatermarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		545B00582515E71A00A95102 /* BatchWatermarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchWatermarkTests.swift; sourceTree = "<group>"; };
+		545B005A2515E71A00A95102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DD4B0E43551765D1EEB0856 /* Pods-BatchWatermark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BatchWatermark.release.xcconfig"; path = "Target Support Files/Pods-BatchWatermark/Pods-BatchWatermark.release.xcconfig"; sourceTree = "<group>"; };
+		BA19FA986242E56EA15A612A /* Pods_BatchWatermarkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BatchWatermarkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0EF696D8144A279252B31E1 /* Pods_BatchWatermark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BatchWatermark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		545B003B2515E71500A95102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DDAD9A3AACF83D6D784E73 /* Pods_BatchWatermark.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545B00512515E71A00A95102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7DA27B0B27925E3B6B9F5A0 /* Pods_BatchWatermarkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222E67D227FE4A45F6FC5433 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0440CE82F6817443DE4C7B1E /* Pods-BatchWatermark.debug.xcconfig */,
+				7DD4B0E43551765D1EEB0856 /* Pods-BatchWatermark.release.xcconfig */,
+				0DD2414AD252C182F4C1AD47 /* Pods-BatchWatermarkTests.debug.xcconfig */,
+				3AFF77A78C854E641E7C7861 /* Pods-BatchWatermarkTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		545B00352515E71500A95102 = {
+			isa = PBXGroup;
+			children = (
+				545B00402515E71600A95102 /* BatchWatermark */,
+				545B00572515E71A00A95102 /* BatchWatermarkTests */,
+				545B003F2515E71600A95102 /* Products */,
+				222E67D227FE4A45F6FC5433 /* Pods */,
+				BC9771EBAC7B97CD1420ED43 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		545B003F2515E71600A95102 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				545B003E2515E71600A95102 /* BatchWatermark.app */,
+				545B00542515E71A00A95102 /* BatchWatermarkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		545B00402515E71600A95102 /* BatchWatermark */ = {
+			isa = PBXGroup;
+			children = (
+				545B00412515E71600A95102 /* AppDelegate.swift */,
+				545B00432515E71600A95102 /* SceneDelegate.swift */,
+				545B00452515E71600A95102 /* ViewController.swift */,
+				545B00472515E71600A95102 /* Main.storyboard */,
+				545B004A2515E71A00A95102 /* Assets.xcassets */,
+				545B004C2515E71A00A95102 /* LaunchScreen.storyboard */,
+				545B004F2515E71A00A95102 /* Info.plist */,
+			);
+			path = BatchWatermark;
+			sourceTree = "<group>";
+		};
+		545B00572515E71A00A95102 /* BatchWatermarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				545B00582515E71A00A95102 /* BatchWatermarkTests.swift */,
+				545B005A2515E71A00A95102 /* Info.plist */,
+			);
+			path = BatchWatermarkTests;
+			sourceTree = "<group>";
+		};
+		BC9771EBAC7B97CD1420ED43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0EF696D8144A279252B31E1 /* Pods_BatchWatermark.framework */,
+				BA19FA986242E56EA15A612A /* Pods_BatchWatermarkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		545B003D2515E71500A95102 /* BatchWatermark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 545B005D2515E71A00A95102 /* Build configuration list for PBXNativeTarget "BatchWatermark" */;
+			buildPhases = (
+				578FEBD0207CB77987C1A249 /* [CP] Check Pods Manifest.lock */,
+				545B003A2515E71500A95102 /* Sources */,
+				545B003B2515E71500A95102 /* Frameworks */,
+				545B003C2515E71500A95102 /* Resources */,
+				1F8F2CFB7AA3A8F0789BB0DA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BatchWatermark;
+			productName = BatchWatermark;
+			productReference = 545B003E2515E71600A95102 /* BatchWatermark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		545B00532515E71A00A95102 /* BatchWatermarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 545B00602515E71A00A95102 /* Build configuration list for PBXNativeTarget "BatchWatermarkTests" */;
+			buildPhases = (
+				26EA2F947F000E38F1B241D8 /* [CP] Check Pods Manifest.lock */,
+				545B00502515E71A00A95102 /* Sources */,
+				545B00512515E71A00A95102 /* Frameworks */,
+				545B00522515E71A00A95102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				545B00562515E71A00A95102 /* PBXTargetDependency */,
+			);
+			name = BatchWatermarkTests;
+			productName = BatchWatermarkTests;
+			productReference = 545B00542515E71A00A95102 /* BatchWatermarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		545B00362515E71500A95102 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ashutosh Dave";
+				TargetAttributes = {
+					545B003D2515E71500A95102 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					545B00532515E71A00A95102 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 545B003D2515E71500A95102;
+					};
+				};
+			};
+			buildConfigurationList = 545B00392515E71500A95102 /* Build configuration list for PBXProject "BatchWatermark" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 545B00352515E71500A95102;
+			productRefGroup = 545B003F2515E71600A95102 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				545B003D2515E71500A95102 /* BatchWatermark */,
+				545B00532515E71A00A95102 /* BatchWatermarkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		545B003C2515E71500A95102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545B004E2515E71A00A95102 /* LaunchScreen.storyboard in Resources */,
+				545B004B2515E71A00A95102 /* Assets.xcassets in Resources */,
+				545B00492515E71600A95102 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545B00522515E71A00A95102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F8F2CFB7AA3A8F0789BB0DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BatchWatermark/Pods-BatchWatermark-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BatchWatermark/Pods-BatchWatermark-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BatchWatermark/Pods-BatchWatermark-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26EA2F947F000E38F1B241D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BatchWatermarkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		578FEBD0207CB77987C1A249 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BatchWatermark-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		545B003A2515E71500A95102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545B00462515E71600A95102 /* ViewController.swift in Sources */,
+				545B00422515E71600A95102 /* AppDelegate.swift in Sources */,
+				545B00442515E71600A95102 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545B00502515E71A00A95102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545B00592515E71A00A95102 /* BatchWatermarkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		545B00562515E71A00A95102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 545B003D2515E71500A95102 /* BatchWatermark */;
+			targetProxy = 545B00552515E71A00A95102 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		545B00472515E71600A95102 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				545B00482515E71600A95102 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		545B004C2515E71A00A95102 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				545B004D2515E71A00A95102 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		545B005B2515E71A00A95102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		545B005C2515E71A00A95102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		545B005E2515E71A00A95102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0440CE82F6817443DE4C7B1E /* Pods-BatchWatermark.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9F7HUSCMC;
+				INFOPLIST_FILE = BatchWatermark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashutosh.BatchWatermark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		545B005F2515E71A00A95102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DD4B0E43551765D1EEB0856 /* Pods-BatchWatermark.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9F7HUSCMC;
+				INFOPLIST_FILE = BatchWatermark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashutosh.BatchWatermark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		545B00612515E71A00A95102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DD2414AD252C182F4C1AD47 /* Pods-BatchWatermarkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9F7HUSCMC;
+				INFOPLIST_FILE = BatchWatermarkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashutosh.BatchWatermarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatchWatermark.app/BatchWatermark";
+			};
+			name = Debug;
+		};
+		545B00622515E71A00A95102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AFF77A78C854E641E7C7861 /* Pods-BatchWatermarkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9F7HUSCMC;
+				INFOPLIST_FILE = BatchWatermarkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashutosh.BatchWatermarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatchWatermark.app/BatchWatermark";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		545B00392515E71500A95102 /* Build configuration list for PBXProject "BatchWatermark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545B005B2515E71A00A95102 /* Debug */,
+				545B005C2515E71A00A95102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		545B005D2515E71A00A95102 /* Build configuration list for PBXNativeTarget "BatchWatermark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545B005E2515E71A00A95102 /* Debug */,
+				545B005F2515E71A00A95102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		545B00602515E71A00A95102 /* Build configuration list for PBXNativeTarget "BatchWatermarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545B00612515E71A00A95102 /* Debug */,
+				545B00622515E71A00A95102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 545B00362515E71500A95102 /* Project object */;
+}
